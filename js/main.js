@@ -20,7 +20,7 @@ const projectsData = [
   },
   {
     title: "Dashboard de análisis de datos en Power BI",
-    desc: "Analizar, visualizar e interpretar datos para mejorar el problema que presenta la empresa hacia un cliente.",
+    desc: "Analizar, visualizar e interpretar datos para mejorar el problema que presenta la empresa (Volvek Chile) hacia un cliente.",
     tags: ["Power BI", "Python","Excel"],
     repo: "Sin repositorio en GitHub"
   }
@@ -81,3 +81,4 @@ themeBtn?.addEventListener("click", () => {
   document.body.classList.toggle("light");
   localStorage.setItem("theme", document.body.classList.contains("light") ? "light" : "dark");
 });
+
